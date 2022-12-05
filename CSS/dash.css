@@ -1,0 +1,51 @@
+.welContainer {
+    background:aliceblue; 
+    height: inherit;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.welcome {
+    background:#fff; 
+    font-size: 2.5rem;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border: 3px solid #fff;
+    border-radius: 20px;
+}
+.info {
+    padding: 2rem;
+    color: black;
+    background: white;
+    width: 70%;
+    height: 42vh;
+    margin-top: 0.7rem ;
+    border-radius: 12px;
+}
+.btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.dash-container {
+     border: white 3px solid;
+     width: 50rem;
+     height: 25rem;
+     display: flex;
+     justify-content: space-around;
+     border-radius: 12px;
+     /* flex-wrap: wrap; */
+}
+button, a {
+        font: inherit;
+        border: 1px solid #0076bb;
+        background-color: #0076bb;
+        color: white;
+        cursor: pointer;
+        padding: 0.75rem 2rem;
+        border-radius: 30px;
+        text-decoration: none;
+    }

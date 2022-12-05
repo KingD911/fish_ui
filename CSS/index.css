@@ -1,0 +1,35 @@
+.space {
+    margin: 0.5rem 0;
+    font-size: larger;
+}
+.link {
+    background: red;
+    padding: 15px;
+    /* border: white 3px solid; */
+    border-radius: 7px;
+    color: white;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    
+
+}
+.container {
+    background: grey;
+    width: 46%;
+    height: 28%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+}
+
+nav {
+padding: 30px;
+}
+
+a {
+font-weight: bold;
+color: #2c3e50;
+}
