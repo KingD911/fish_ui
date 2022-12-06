@@ -15,6 +15,20 @@
     border: 3px solid #fff;
     border-radius: 20px;
 }
+form {
+    background: grey;
+    height: 10rem;
+    border: 3px white solid;
+    border-radius: 12px;
+    width: 20rem;
+    padding: 3rem;
+}
+.form-control {
+    margin: 1.5rem 0;
+    /* border: 3px red solid; */
+    display: flex;
+    justify-content: space-between;
+}
 .info {
     padding: 2rem;
     color: black;

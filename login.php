@@ -55,11 +55,11 @@ session_start();
         <form method="post">
             <div class="form-control">
                 <label for="name">Username</label>
-                <input type="text" placeholder="username" name="user_name" id="user-name" value=" "> 
+                <input type="text" placeholder="username" name="user_name" id="user-name" value=""> 
             </div>
             <div class="form-control">
                 <label for="password">Password</label>
-                <input type="password" name="password" id="password" placeholder="password" value=" ">
+                <input type="password" name="password" id="password" placeholder="password" value="">
             </div>
              <div class="btn">
                 <button>SignIn</button>
